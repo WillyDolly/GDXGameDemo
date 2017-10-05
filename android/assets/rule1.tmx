@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="2017.07.17" orientation="orthogonal" renderorder="right-down" width="4" height="4" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="tile" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+  <image source="../../../../Downloads/tiled-windows-32bit-snapshot/examples/minecraft.png" width="512" height="512"/>
+ </tileset>
+ <layer name="regions" width="4" height="4">
+  <data encoding="base64" compression="zlib">
+   eJwzZIAANygtykAaAAAfwACN
+  </data>
+ </layer>
+ <layer name="input_ground" width="4" height="4">
+  <data encoding="base64" compression="zlib">
+   eJwzZ4AAZiidxkAaAAAhyACh
+  </data>
+ </layer>
+ <layer name="output_ground" width="4" height="4">
+  <data encoding="base64" compression="zlib">
+   eJzjY4CARgbyAAAf+ACQ
+  </data>
+ </layer>
+</map>

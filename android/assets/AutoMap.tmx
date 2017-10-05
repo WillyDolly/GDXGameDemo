@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="2017.07.17" orientation="orthogonal" renderorder="right-down" width="10" height="10" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="tile" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+  <image source="../../../../Downloads/tiled-windows-32bit-snapshot/examples/minecraft.png" width="512" height="512"/>
+  <tile id="0">
+   <animation>
+    <frame tileid="12" duration="100"/>
+    <frame tileid="13" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="33">
+   <objectgroup draworder="index">
+    <object id="1" x="29" y="22"/>
+   </objectgroup>
+  </tile>
+  <tile id="109">
+   <objectgroup draworder="index" name="coll"/>
+  </tile>
+  <tile id="119">
+   <animation>
+    <frame tileid="120" duration="100"/>
+    <frame tileid="119" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="257" name="animation" tilewidth="64" tileheight="64" tilecount="960" columns="30">
+  <image source="../../../../Downloads/tiled-windows-32bit-snapshot/examples/sticker-knight/sprites.png" width="1920" height="2048"/>
+  <tile id="92">
+   <animation>
+    <frame tileid="92" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <layer name="ground" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eJzjY2Bg4ANiMyAuBOIlSOxGJDlkzIeGl0DVLsGirhHK5kBSLwvFyGY1QtUg6+XFYmcjFjt4kdTy4lEH8wsHA6b7sKnhRVPHh6YGG27EwgbRDESqAwBNyBT2
+  </data>
+ </layer>
+ <layer name="collision" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYCANcJCghgNNDJtebGrw6TNFE+NAU0dIPyMW/TB2BRZzsLm7EipmgkMNLxDzIalBVteOxW0mSBgAqLcEOg==
+  </data>
+ </layer>
+</map>

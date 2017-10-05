@@ -1,0 +1,33 @@
+
+riding.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+riding1
+  rotate: false
+  xy: 1, 1
+  size: 150, 290
+  orig: 150, 290
+  offset: 0, 0
+  index: -1
+riding2
+  rotate: false
+  xy: 153, 1
+  size: 150, 290
+  orig: 150, 290
+  offset: 0, 0
+  index: -1
+riding3
+  rotate: false
+  xy: 305, 1
+  size: 150, 290
+  orig: 150, 290
+  offset: 0, 0
+  index: -1
+riding4
+  rotate: false
+  xy: 457, 1
+  size: 150, 290
+  orig: 150, 290
+  offset: 0, 0
+  index: -1

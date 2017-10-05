@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="2017.07.17" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32" nextobjectid="30">
+ <tileset firstgid="1" name="images" tilewidth="318" tileheight="158" tilecount="3" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="318" height="158" source="../../../../Downloads/tiled-windows-32bit-snapshot/examples/background.jpg"/>
+  </tile>
+  <tile id="5">
+   <image width="100" height="100" source="../../../../Downloads/tiled-windows-32bit-snapshot/examples/mario.png"/>
+  </tile>
+  <tile id="7">
+   <image width="100" height="100" source="../../../../Downloads/tiled-windows-32bit-snapshot/examples/monster.png"/>
+  </tile>
+ </tileset>
+ <objectgroup draworder="index" name="background">
+  <object id="4" gid="1" x="0" y="480" width="641" height="477"/>
+  <object id="12" x="564" y="177" height="1"/>
+ </objectgroup>
+ <objectgroup name="midground">
+  <object id="10" gid="6" x="510" y="388" width="100" height="100"/>
+ </objectgroup>
+ <objectgroup name="foreground">
+  <object id="11" gid="1073741832" x="275" y="219" width="156.017" height="197.289" rotation="-538.055"/>
+ </objectgroup>
+ <objectgroup name="Collision">
+  <object id="25" name="land" x="1" y="428" width="640" height="52"/>
+ </objectgroup>
+</map>

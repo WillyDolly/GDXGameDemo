@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="2017.07.17" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32" nextobjectid="14">
+ <tileset firstgid="1" name="animation" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+  <image source="../../../../Downloads/tiled-windows-32bit-snapshot/examples/animation.png" width="512" height="512"/>
+  <tile id="0">
+   <animation>
+    <frame tileid="253" duration="100"/>
+    <frame tileid="237" duration="100"/>
+    <frame tileid="221" duration="100"/>
+    <frame tileid="205" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="9">
+   <animation>
+    <frame tileid="134" duration="100"/>
+    <frame tileid="135" duration="100"/>
+    <frame tileid="136" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="112">
+   <animation>
+    <frame tileid="112" duration="100"/>
+    <frame tileid="113" duration="100"/>
+    <frame tileid="114" duration="100"/>
+    <frame tileid="96" duration="100"/>
+    <frame tileid="97" duration="100"/>
+    <frame tileid="98" duration="100"/>
+    <frame tileid="80" duration="100"/>
+    <frame tileid="81" duration="100"/>
+    <frame tileid="82" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="128">
+   <animation>
+    <frame tileid="201" duration="100"/>
+    <frame tileid="202" duration="100"/>
+    <frame tileid="203" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="134">
+   <animation>
+    <frame tileid="134" duration="100"/>
+    <frame tileid="135" duration="100"/>
+    <frame tileid="136" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="176">
+   <animation>
+    <frame tileid="176" duration="100"/>
+    <frame tileid="177" duration="1000"/>
+    <frame tileid="178" duration="100"/>
+    <frame tileid="160" duration="1000"/>
+    <frame tileid="161" duration="100"/>
+    <frame tileid="162" duration="100"/>
+    <frame tileid="146" duration="1000"/>
+    <frame tileid="146" duration="100"/>
+    <frame tileid="145" duration="100"/>
+    <frame tileid="144" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="192">
+   <animation>
+    <frame tileid="192" duration="100"/>
+    <frame tileid="193" duration="100"/>
+    <frame tileid="194" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="207">
+   <animation>
+    <frame tileid="206" duration="100"/>
+    <frame tileid="222" duration="100"/>
+    <frame tileid="238" duration="100"/>
+    <frame tileid="254" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="237">
+   <animation>
+    <frame tileid="112" duration="100"/>
+    <frame tileid="113" duration="100"/>
+    <frame tileid="114" duration="100"/>
+    <frame tileid="96" duration="100"/>
+    <frame tileid="97" duration="100"/>
+    <frame tileid="98" duration="100"/>
+    <frame tileid="80" duration="100"/>
+    <frame tileid="81" duration="100"/>
+    <frame tileid="82" duration="100"/>
+    <frame tileid="82" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="257" name="tile" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+  <image source="../../../../Downloads/tiled-windows-32bit-snapshot/examples/minecraft.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="513" name="mountain" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+  <image source="../../../../Downloads/tiled-windows-32bit-snapshot/examples/mountain_landscape_23.png" width="512" height="512"/>
+  <terraintypes>
+   <terrain name="New Terrain" tile="165"/>
+   <terrain name="" tile="-1"/>
+   <terrain name="Rock" tile="124"/>
+  </terraintypes>
+  <tile id="107" terrain=",,,2"/>
+  <tile id="108" terrain=",,2,2"/>
+  <tile id="109" terrain=",,2,"/>
+  <tile id="123" terrain=",2,,2"/>
+  <tile id="124" terrain="2,2,2,2"/>
+  <tile id="125" terrain="2,,2,"/>
+  <tile id="139" terrain=",2,,"/>
+  <tile id="140" terrain="2,2,,"/>
+  <tile id="141" terrain="2,,,"/>
+  <tile id="148" terrain=",,,0"/>
+  <tile id="149" terrain=",,0,0"/>
+  <tile id="150" terrain=",,0,"/>
+  <tile id="164" terrain=",0,,0"/>
+  <tile id="165" terrain="0,0,0,0"/>
+  <tile id="166" terrain="0,,0,"/>
+  <tile id="180" terrain=",0,,"/>
+  <tile id="181" terrain="0,0,,"/>
+  <tile id="182" terrain="0,,,"/>
+ </tileset>
+ <tileset firstgid="769" name="water" tilewidth="32" tileheight="32" tilecount="49" columns="7">
+  <image source="../../../../Downloads/tiled-windows-32bit-snapshot/examples/water.jpg" width="225" height="225"/>
+  <terraintypes>
+   <terrain name="New Terrain" tile="8"/>
+  </terraintypes>
+  <tile id="8" terrain="0,0,0,0"/>
+  <tile id="9" terrain="0,0,0,0"/>
+  <tile id="15" terrain="0,0,,"/>
+  <tile id="16" terrain="0,0,,"/>
+ </tileset>
+ <tileset firstgid="818" name="water1" tilewidth="32" tileheight="32" tilecount="100" columns="10">
+  <image source="../../../../Downloads/tiled-windows-32bit-snapshot/examples/water_6.png" width="320" height="320"/>
+  <terraintypes>
+   <terrain name="1" tile="0"/>
+  </terraintypes>
+  <tile id="0" terrain=",,,0"/>
+  <tile id="1" terrain=",,0,0"/>
+  <tile id="9" terrain=",,0,"/>
+  <tile id="80" terrain=",0,,0"/>
+  <tile id="81" terrain="0,0,0,0"/>
+  <tile id="89" terrain="0,,0,"/>
+  <tile id="90" terrain=",0,,"/>
+  <tile id="91" terrain="0,0,,"/>
+  <tile id="99" terrain="0,,,"/>
+ </tileset>
+ <tileset firstgid="918" name="mountain1" tilewidth="32" tileheight="112" tilecount="64" columns="16">
+  <image source="../../../../Downloads/tiled-windows-32bit-snapshot/examples/mountain_landscape_23.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="982" name="tree" tilewidth="32" tileheight="190" tilecount="72" columns="18">
+  <image source="../../../../Downloads/tiled-windows-32bit-snapshot/examples/tree.png" width="576" height="768"/>
+ </tileset>
+ <layer name="ground" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzbwcTAsBOId1CJPgHEJ6lIU8tdo+4bdd9Ic18OEOcSgfOIdF8NENcSgeuIdF8PEPcSgftG43fQug8AMJMnmw==
+  </data>
+ </layer>
+ <layer name="grass" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt1Ds2A2EYBuAxLr1r/YlLj9Aj0YtL7b4jrCCsADWyAWIDLhuQZAGeXvPPmYnKd87Tzfs2/5y3k2dHb3wxIEu8kTzLckYZY5wJnnV0+aRfoG9SdoppZphljicdr3zQK9A3L1tjgUWWWOZRxwvvfBfoW5FdZY0662zkqenftym7xTYNmuyU6NuVbbHHPgcclug7lj3hlDPOuSjR939/f5fe6yrBdeK7tn13k+A2se/Od/cJHob439mDsAdhD8IeRNk+exX2KuxV9Cros6dhT8OeRr+Cvo4Oex/2PgYV9P0AwElCAA==
+  </data>
+ </layer>
+ <layer name="fire" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBjeoJSJgaGMiXrmtQLNaqOieaNgFIyCUTBUAQBjXgH/
+  </data>
+ </layer>
+ <layer name="water" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFgw0YMTMwGCNha2bKzGsC6m9Gwt2j5g0r83qA+nuR8FQKzRsFo4BYAABLzBPL
+  </data>
+ </layer>
+ <layer name="Fringe" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt0lkKgDAMRdGnifvfneMGHPfg/RYKYosQ8cH5KSSkIdKH41KFGgb3vNrmZn1rUoceA0ZM9ugHIfom6zN2WGq2P8FzuaEombnRBSs27Dgs/V6q/9tznqoYNhE=
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1">
+  <object id="2" name="Lake" x="46" y="174" width="130" height="200"/>
+ </objectgroup>
+</map>

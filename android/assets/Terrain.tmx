@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="Dessert" tilewidth="32" tileheight="32" spacing="1" tilecount="48" columns="8">
+  <image source="../../../../Downloads/tiled-windows-32bit-snapshot/examples/tmw_desert_spacing.png" width="265" height="199"/>
+  <terraintypes>
+   <terrain name="Brick" tile="28"/>
+   <terrain name="Stone" tile="33"/>
+  </terraintypes>
+  <tile id="0" terrain=",,,0"/>
+  <tile id="1" terrain=",,0,0"/>
+  <tile id="2" terrain=",,0,"/>
+  <tile id="8" terrain=",0,,0"/>
+  <tile id="9" terrain="0,0,0,0"/>
+  <tile id="10" terrain="0,,0,"/>
+  <tile id="16" terrain=",0,,"/>
+  <tile id="17" terrain="0,0,,"/>
+  <tile id="18" terrain="0,,,"/>
+  <tile id="19" terrain="0,0,0,"/>
+  <tile id="20" terrain="0,0,,0"/>
+  <tile id="24" terrain=",,,1"/>
+  <tile id="25" terrain=",,1,1"/>
+  <tile id="26" terrain=",,1,"/>
+  <tile id="27" terrain="0,,0,0"/>
+  <tile id="28" terrain=",0,0,0"/>
+  <tile id="32" terrain=",1,,1"/>
+  <tile id="33" terrain="1,1,1,1"/>
+  <tile id="34" terrain="1,,1,"/>
+  <tile id="40" terrain=",1,,"/>
+  <tile id="41" terrain="1,1,,"/>
+  <tile id="42" terrain="1,,,"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJytlI0KwjAMhKsD/wbqFHQqKCoUVPD9H88b5PAIbXXi4IOiyS25ZD2GEI49GIExmIAd2INDTw1lDhZgCc7gAq4uZgCGoJJziu7/DdiCFtwyelMwA7WcPSuwTvTcaT4Keo3lKp2OPhvpmR6qj43kae/RCK4marbiofatsayV2pXl6xyC5QXr926wb41tTCuadl3Qy+2Lzow1RdHO6eX25SRes6bo0Hd+0tOHNfm5sG7No3d+X/zs/A5p732/IerpDkWJ/eab9d5476Jo5jzL+RcKcSXPyLOQyxmov34uqf5T90sV3ruj/vI35qb6T90vvBvWzl8/51T/Oks9c9d/vXv/wQti9iJY
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,4 @@
+ruleEdge.tmx
+rule1.tmx
+ruleColision.tmx
+ruleRandom.tmx
